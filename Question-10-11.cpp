@@ -22,21 +22,9 @@ class LinkedList {
 
     //❓❓ Question 10: Declare the other linked list methods here:
 
-    //TODO Remove Answers
-    // Returns the number of items in the list
-    int length();
 
-    // Get the Nth item from the list
-    string get(int index);
 
-    // Returns true if the list contains needle
-    bool contains(string needle);
 
-    // Add an item to the list
-    void insertAt(int pos, string value);
-
-    // Remove an item from the list
-    void deleteAt(int pos);
 };
 
 int main() {}

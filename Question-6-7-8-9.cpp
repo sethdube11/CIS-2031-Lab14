@@ -12,12 +12,9 @@ class Player {
         int hitPoints;
 
     public:
-        //❓❓ QUESTION 9, add the constructor here
-        //TODO Remove answer
-        Player(string n, int hp){
-            name = n;
-            hitPoints = hp;
-        }
+        //❓❓ QUESTION 9, add the constructor here:
+
+        
 
         string getName(){
             return name;
@@ -36,8 +33,7 @@ class Player {
 };
 
 int main(){
-    //TODO Remove answer
-    Player a = Player("Bill", 100);
-    a.damage(43);
-    cout << a.getName() << " has " << a.getHitPoints() << " hp." << endl;
+    //❓❓ QUESTION 9, add to the main function here:
+
+
 }
