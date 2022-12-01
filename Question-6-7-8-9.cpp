@@ -12,9 +12,13 @@ class Player {
         int hitPoints;
 
     public:
-        //❓❓ QUESTION 9, add the constructor here:
+      //constructor
+      Player(string n, int h){
+        name = n;
+        hitPoints= h; 
+      }
 
-        
+Player a = Player("Ron",10);
 
         string getName(){
             return name;
@@ -33,7 +37,7 @@ class Player {
 };
 
 int main(){
-    //❓❓ QUESTION 9, add to the main function here:
-
-
+    a.getName;
+    a.getHitPoints;
+    a.damage;
 }
